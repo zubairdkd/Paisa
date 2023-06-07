@@ -331,10 +331,10 @@ class _ExpensePageState extends State<ExpensePage> {
                       ],
                     ),
                   ),
-                  const Expanded(
+                  Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: [
+                      children: const [
                         SelectedAccount(),
                         SelectCategoryIcon(),
                       ],
